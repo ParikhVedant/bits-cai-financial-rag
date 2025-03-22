@@ -31,6 +31,9 @@ env/
 *.swp
 *.swo
 
+# Environment variables
+.env
+
 # # Project specific
 # models/*.bin
 # models/*.gguf
