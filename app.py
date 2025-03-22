@@ -21,6 +21,9 @@ def create_app():
     # Separator
     st.sidebar.markdown("---")
     
+    # Handle URL forwarding - display same content regardless of URL path
+    # This ensures the app works the same whether accessed at root, /cai, or any other path
+    
     st.sidebar.title("Options")
     
     # Initialize the OpenAI Assistant
