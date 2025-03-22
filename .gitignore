@@ -31,10 +31,10 @@ env/
 *.swp
 *.swo
 
-# Project specific
-models/*.bin
-models/*.gguf
-.env
+# # Project specific
+# models/*.bin
+# models/*.gguf
+# .env
 .DS_Store
 
 # # Large data files
