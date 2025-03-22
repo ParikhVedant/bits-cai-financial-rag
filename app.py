@@ -12,6 +12,15 @@ def create_app():
     )
     
     st.title("Financial RAG Assistant")
+    
+    # Add group members information
+    st.sidebar.markdown("## Group Members Name with Student ID:")
+    st.sidebar.markdown("1. PARIKH VEDANT ASHISH ALPA 2023AA05369")
+    st.sidebar.markdown("2. KANSARA HARSH BHARAT BHAVINI 2023AA05351")
+    
+    # Separator
+    st.sidebar.markdown("---")
+    
     st.sidebar.title("Options")
     
     # Initialize the OpenAI Assistant
